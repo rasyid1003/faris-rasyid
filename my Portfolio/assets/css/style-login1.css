@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #272829;
+    height: 100%;
+  }
+  
+  .login-page {
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom: 4px solid #ffffff;
+    border-left: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+    border-top: 4px solid #ffffff;
+    color: #fff;
+    padding: 8px 10px;
+    box-shadow: 0 0 20px rgba(255,255,255,.3);}
+  
+  
+  .login-page h1 {
+    font-size: 40px;
+    float: center;
+    border-bottom: 6px solid rgb(255, 255, 255);
+    margin-bottom: 48px;
+    padding: 12px 0;
+  }
+  
+  .form-control {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 1px solid;
+    overflow: hidden;
+  }
+  
+  .form-control i {
+    width: 28px;
+    float: left;
+    text-align: center;
+  }
+  
+  .form-control input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    width: 80%;
+    float: left;
+    margin: 0 8px;
+  }
+  
+  .btn-submit {
+    background: none;
+    border: 2px solid #006eff;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    margin: 12px 0;
+    padding: 6px;
+    cursor: pointer;
+  }
